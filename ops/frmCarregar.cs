@@ -64,7 +64,7 @@ namespace OPS
                     }
                     else
                     {
-                        MessageBox.Show("Erro ao conectar com a internet!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                        lblCarregar.Text = "Erro ao conectar a internet";
                     }
                 }
                 else if (pgbCarregar.Value > 90)
